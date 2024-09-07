@@ -1,5 +1,5 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "𝙅𝞗𝙔𝞑𝞗𝙔-𝞛𝘿",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -22,10 +22,10 @@
     "PREFIX": {
       "description": "prefix, check for more",
       "required": false,
-      "value": "."
+      "value": ".*-!"
     },
     "SESSION_ID": {
-      "description": "session id",
+      "description": "levanter_7b16895a0264141b2b3926b64a0036ad4",
       "required": true,
       "value": ""
     },
@@ -99,8 +99,8 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
@@ -110,7 +110,7 @@
     "AJOIN": {
       "description": "Accept Group join request(Group privacy)",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
